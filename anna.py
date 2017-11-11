@@ -8,7 +8,7 @@ from secrets import BOT_TOKEN
 Client = discord.Client()
 anna_Bot = commands.Bot(command_prefix="!")
 
-""" This is a discord Bot named Anna """
+""" This is a discord Bot named Anna! """
 
 @anna_Bot.event
 async def on_ready():
