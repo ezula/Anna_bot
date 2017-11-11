@@ -24,11 +24,7 @@ async def hello(ctx):
 
 @anna_Bot.command(pass_context = True)
 async def commands(ctx):
-    return await anna_Bot.say("Here is some commands you can use, /n !hello /n !trivia")
-
-@anna_Bot.command(pass_context = True)
-async def papabiceps(*args):
-    return await anna_Bot.say("You are not my friend, You are my brother! My friend!")
+    return await anna_Bot.say("Here is some commands you can use, \n !hello \n !trivia")
 
 @anna_Bot.command(pass_context = True)
 async def trivia(*args):
